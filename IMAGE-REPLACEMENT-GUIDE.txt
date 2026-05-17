@@ -1,0 +1,65 @@
+LYNO ASSOCIATE WEBSITE - SIMPLE IMAGE REPLACEMENT GUIDE
+=======================================================
+
+1. HOW TO RUN THE WEBSITE
+-------------------------
+1. Extract the ZIP file.
+2. Open the folder named: lyno-associates-website
+3. Right-click inside the folder and choose: Open in Terminal / Open Command Prompt here
+4. Run these commands:
+
+npm install
+npm run dev
+
+5. Open the local link shown in the terminal. It is usually:
+http://localhost:5173
+
+
+2. WHERE THE WEBSITE IMAGES ARE
+-------------------------------
+All images used by the website are here:
+
+public/site-images
+
+Extra backup/generated images are here:
+
+public/site-images/all-generated-images
+
+
+3. IMAGES CURRENTLY USED BY THE WEBSITE
+---------------------------------------
+home-hero.png              = Big image on Home page
+home-market.png            = Tanzanian market/business image on Home page
+about-team.png             = About Us main team image
+about-client.png           = About Us client relationship image
+services-main.png          = Services main meeting image
+services-accountant.png    = Services accountant image
+contact-office.png         = Contact page office image
+contact-support.png        = Contact page consultation image
+
+
+4. HOW TO REPLACE ANY IMAGE
+---------------------------
+1. Choose your new image.
+2. Rename it to the exact same name as the image you want to replace.
+   Example: home-hero.png
+3. Copy it into this folder:
+   public/site-images
+4. Windows will ask if you want to replace the file. Click Replace.
+5. Refresh the website in your browser.
+
+
+5. BEST IMAGE SIZE
+------------------
+Use landscape images.
+Best size: 1448 x 1086 px
+Also good: 1200 x 900 px, 1600 x 1200 px, 1920 x 1080 px
+
+
+6. BUILD FOR VERCEL
+-------------------
+Run:
+
+npm run build
+
+Then upload the folder to GitHub and connect it to Vercel.
